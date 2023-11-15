@@ -1,5 +1,7 @@
-!pip install transformers datasets
-!pip install scikit-learn pandas
-!pip install numpy
-!pip install torch
-!pip install accelerate
+transformers
+datasets
+scikit-learn
+pandas
+numpy
+torch
+accelerate

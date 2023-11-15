@@ -326,7 +326,6 @@ beverages = [
     ["CHÁ BRANCO 10 SAQUINHOS", "bebidas"],
     ["SUCO DE BLUEBERRY 500ML", "bebidas"],
     ["REFRIGERANTE SABOR GENGIBRE 2L", "bebidas"],
-    ["ÁGUA DE COCO 1L", "bebidas"],
 ]
 
 hygiene = [

@@ -511,4 +511,7 @@ seafood = [
     ["TAMBORIL", "peixaria"],
 ]
 
-validation_products = hygiene + dairy + sweets + meats + grains_cereals + non_perishable + frozen + bakery + beverages + deli + cleaning + produce + electronics + seafood
+_validation_products = hygiene + dairy + sweets + meats + grains_cereals + non_perishable + frozen + bakery + beverages + deli + cleaning + produce + electronics + seafood
+
+def get_validation_products():
+    return _validation_products

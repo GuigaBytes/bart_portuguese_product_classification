@@ -1,4 +1,4 @@
-# bart-portuguese-product-classification
+# bart_portuguese_product_classification
 
 ## Visão Geral
 Este repositório contém um estudo de caso sobre o uso do modelo `facebook/bart-large-mnli` para a classificação de descrições de produtos de supermercados treinado com dataset de mais de 2000 descrições em português.

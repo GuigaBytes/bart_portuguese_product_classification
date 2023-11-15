@@ -1,4 +1,4 @@
-categories = [
+_categories = [
     "horti-fruti",
     "laticínios",
     "doces",
@@ -12,5 +12,8 @@ categories = [
     "eletrônicos",
     "congelados",
     "frios",
-    "peixaria"
+    "peixaria",
 ]
+
+def get_categories():
+    return _categories

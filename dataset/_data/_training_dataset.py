@@ -1188,4 +1188,7 @@ seafood = [
     ["LAMBARIS FRESCOS", "peixaria"]
 ]
 
-training_products = hygiene + dairy + sweets + meats + grains_cereals + non_perishable + frozen + bakery + beverages + deli + cleaning + produce + electronics + seafood
+_training_products = hygiene + dairy + sweets + meats + grains_cereals + non_perishable + frozen + bakery + beverages + deli + cleaning + produce + electronics + seafood
+
+def get_training_products():
+    return _training_products

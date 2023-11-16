@@ -4,14 +4,9 @@ from nltk.corpus import stopwords
 from nltk.stem import SnowballStemmer
 from nltk.stem import WordNetLemmatizer
 
-if not nltk.corpus.stopwords.words():
-    nltk.download('stopwords')
-
-if not nltk.corpus.wordnet.words():
-    nltk.download('wordnet')
-
-if 'omw-1.4' not in nltk.data.path:
-    nltk.download('omw-1.4')
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
 
 def remove_non_alphanumeric(text):
     """

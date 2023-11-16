@@ -13,6 +13,12 @@ _categories = [
     "congelados",
     "frios",
     "peixaria",
+    "papelaria",
+    "jardinagem",
+    "sazonal",
+    "pet-shop",
+    "brinquedos",
+    "saúde",
 ]
 
 def get_categories():

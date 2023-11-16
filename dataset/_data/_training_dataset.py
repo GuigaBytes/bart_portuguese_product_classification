@@ -1360,7 +1360,8 @@ health = [
     ["DESINFETANTE PARA AS MÃOS", "saúde"],
 ]
 
-_training_products = hygiene + dairy + sweets + meats + grains_cereals + non_perishable + frozen + bakery + beverages + deli + cleaning + produce + electronics + seafood
+_training_products = hygiene + dairy + sweets + meats + grains_cereals + non_perishable + frozen + bakery + beverages + deli + cleaning + produce + electronics + seafood \
+    + stationery + gardening + seasonal + pet_shop + toys + health
 
 def get_training_products():
     return _training_products

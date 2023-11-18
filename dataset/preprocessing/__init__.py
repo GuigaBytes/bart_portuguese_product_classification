@@ -1,5 +1,6 @@
 import re
 import nltk
+import spacy
 from nltk.corpus import stopwords
 from nltk.stem import SnowballStemmer
 from nltk.stem import WordNetLemmatizer
@@ -7,6 +8,7 @@ from nltk.stem import WordNetLemmatizer
 nltk.download('stopwords')
 nltk.download('wordnet')
 nltk.download('omw-1.4')
+nlp = spacy.load("pt_core_news_sm")
 
 def remove_non_alphanumeric(text):
     """
@@ -36,10 +38,11 @@ def stem_text(text, language='portuguese'):
 
 def lemmatize_text(text):
     """
-    Aplica lematização ao texto.
+    Aplica lematização ao texto usando SpaCy.
     """
-    lemmatizer = WordNetLemmatizer()
-    return ' '.join([lemmatizer.lemmatize(word) for word in text.split()])
+    doc = nlp(text)
+    lemmas = [token.lemma_ for token in doc]
+    return ' '.join(lemmas)
 
 # Função de pré-processamento que combina todas as etapas acima
 def preprocess_text(text, remove_stopwords_flag=True, use_stemming=False):

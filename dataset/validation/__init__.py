@@ -59,5 +59,5 @@ def check_class_labels(training_products, categories):
             print(f"Produto: {item[0]}, Categoria: {item[1]}")
         return False;
     else:
-        success("Todos os rótulos de classe são válidos.")
+        success("Todas as categorias são conhecidas.")
         return True;

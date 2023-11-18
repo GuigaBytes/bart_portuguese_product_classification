@@ -326,7 +326,6 @@ beverages = [
     ["CHÁ BRANCO 10 SAQUINHOS", "bebidas"],
     ["SUCO DE BLUEBERRY 500ML", "bebidas"],
     ["REFRIGERANTE SABOR GENGIBRE 2L", "bebidas"],
-    ["ÁGUA DE COCO 1L", "bebidas"],
 ]
 
 hygiene = [
@@ -512,4 +511,118 @@ seafood = [
     ["TAMBORIL", "peixaria"],
 ]
 
-validation_products = hygiene + dairy + sweets + meats + grains_cereals + non_perishable + frozen + bakery + beverages + deli + cleaning + produce + electronics + seafood
+# Categorias Desconhecidas
+stationery = [
+    ["APONTADOR COM DEPÓSITO", "papelaria"],
+    ["CANETA HIDROGRÁFICA 12 CORES", "papelaria"],
+    ["MARCADOR PERMANENTE PRETO", "papelaria"],
+    ["CAIXA ORGANIZADORA DE DOCUMENTOS", "papelaria"],
+    ["PLANNER SEMANAL DE MESA", "papelaria"],
+    ["FITAS DECORATIVAS WASHI TAPE", "papelaria"],
+    ["PORTA-RETRATO 10X15CM", "papelaria"],
+    ["PINCÉIS PARA PINTURA - KIT 6 UNIDADES", "papelaria"],
+    ["PASTA LOMBADA LARGA COM 4 ARGOLAS", "papelaria"],
+    ["QUADRO BRANCO 60X40CM", "papelaria"],
+    ["MOCHILA ESCOLAR INFANTIL", "papelaria"],
+    ["AGENDA 2023", "papelaria"],
+    ["COLA BRANCA 90G", "papelaria"],
+    ["CARIMBO AUTOMÁTICO", "papelaria"],
+    ["CONJUNTO DE RÉGUAS GEOMÉTRICAS", "papelaria"],
+    ["BLOCO DE DESENHO A3", "papelaria"],
+    ["FICHÁRIO UNIVERSITÁRIO", "papelaria"],
+    ["ALMOFADA PARA CARIMBO", "papelaria"],
+    ["CANETA TINTEIRO", "papelaria"],
+]
+
+gardening = [
+    ["VASO AUTOIRRIGÁVEL", "jardinagem"],
+    ["LUMINÁRIA SOLAR PARA JARDIM", "jardinagem"],
+    ["PEDRAS DECORATIVAS COLORIDAS", "jardinagem"],
+    ["PLACA DECORATIVA PARA JARDIM", "jardinagem"],
+    ["FERTILIZANTE LÍQUIDO PARA ORQUÍDEAS", "jardinagem"],
+    ["MUDA DE ROSA DO DESERTO", "jardinagem"],
+    ["SUPORTE PARA PLANTAS TREPADEIRAS", "jardinagem"],
+    ["PROTETOR PARA MÃOS EM JARDINAGEM", "jardinagem"],
+    ["CARRINHO DE MÃO PARA JARDIM", "jardinagem"],
+    ["SEMENTES DE PIMENTA", "jardinagem"],
+    ["ESTAÇÃO METEOROLÓGICA PARA JARDIM", "jardinagem"],
+    ["HIDRÔMETRO PARA PLANTAS", "jardinagem"],
+    ["SACO PARA CULTIVO DE BATATAS", "jardinagem"],
+    ["MUDA DE LAVANDA", "jardinagem"],
+    ["FERRAMENTA MULTIFUNCIONAL PARA JARDIM", "jardinagem"],
+    ["REDE DE PROTEÇÃO PARA PLANTAS", "jardinagem"],
+    ["ENXADA PEQUENA PARA JARDIM", "jardinagem"],
+]
+
+seasonal = [
+    ["ENFEITES DE MESA PARA CEIA DE NATAL", "sazonal"],
+    ["LANTERNAS JAPONESAS PARA DECORAÇÃO", "sazonal"],
+    ["BRINQUEDOS PARA DIA DAS CRIANÇAS", "sazonal"],
+    ["CONJUNTO DE PRATOS TEMÁTICOS - HALLOWEEN", "sazonal"],
+    ["CORAÇÃO DE PELÚCIA - DIA DOS NAMORADOS", "sazonal"],
+    ["CHAPÉU DE BRUXA PARA HALLOWEEN", "sazonal"],
+    ["CANECA TEMÁTICA - DIA DOS PAIS", "sazonal"],
+    ["ARTIGOS PARA DECORAÇÃO DE ANO NOVO", "sazonal"],
+    ["KIT DE MAQUIAGEM PARA CARNAVAL", "sazonal"],
+    ["ÁLBUM DE FOTOS PARA DIA DAS MÃES", "sazonal"],
+    ["QUEBRA-CABEÇA TEMÁTICO - PÁSCOA", "sazonal"],
+    ["BANDEJA DECORATIVA PARA FESTAS", "sazonal"],
+]
+
+pet_shop = [
+    ["SUPLEMENTO PARA ARTICULAÇÕES DE CÃES", "pet-shop"],
+    ["LUVA PARA PENTEAR ANIMAIS", "pet-shop"],
+    ["CASA DE PASSARINHO", "pet-shop"],
+    ["RAÇÃO PARA TARTARUGAS", "pet-shop"],
+    ["PORTA RETRATO PARA FOTOS DE ANIMAIS", "pet-shop"],
+    ["ALIMENTO PARA COELHOS", "pet-shop"],
+    ["RODA DE EXERCÍCIO PARA HAMSTERS", "pet-shop"],
+    ["ENFEITES PARA AQUÁRIO", "pet-shop"],
+    ["FANTASIA PARA CÃES", "pet-shop"],
+    ["CAIXA DE TRANSPORTE PARA PET", "pet-shop"],
+    ["LIMPA PATAS", "pet-shop"],
+]
+
+toys = [
+    ["BALANÇO PARA CRIANÇAS", "brinquedos"],
+    ["ESCUDO E ESPADA DE BRINQUEDO", "brinquedos"],
+    ["BLOCOS DE MONTAR", "brinquedos"],
+    ["CORDA DE PULAR", "brinquedos"],
+    ["AVIÃO DE CONTROLE REMOTO", "brinquedos"],
+    ["TOCA INFANTIL", "brinquedos"],
+    ["BOLA DE BASQUETE", "brinquedos"],
+    ["KIT DE PINTURA", "brinquedos"],
+    ["MÁSCARA DE SUPER-HERÓI", "brinquedos"],
+    ["PISTA DE CORRIDA", "brinquedos"],
+    ["BONECA QUE ANDA", "brinquedos"],
+    ["CARRINHO DE EMPURRAR PARA BEBÊS", "brinquedos"],
+    ["BATERIA MUSICAL INFANTIL", "brinquedos"],
+]
+
+health = [
+    ["BÁLSAMO PARA DORES", "saúde"],
+    ["COLÍRIO", "saúde"],
+    ["INSETICIDA NATURAL", "saúde"],
+    ["ENXAGUANTE BUCAL", "saúde"],
+    ["ABSORVENTES HIGIÊNICOS", "saúde"],
+    ["MÁSCARA FACIAL", "saúde"],
+    ["ADESIVO PARA DOR NAS COSTAS", "saúde"],
+    ["TINTURA PARA CABELO", "saúde"],
+    ["SUPLEMENTO DE FERRO", "saúde"],
+    ["PROTETOR LABIAL", "saúde"],
+    ["CALÇADOS ORTOPÉDICOS", "saúde"],
+    ["ÓLEO ESSENCIAL", "saúde"],
+    ["FILTRO NASAL", "saúde"],
+    ["PULSEIRA ANTIMOSQUITO", "saúde"],
+    ["LOÇÃO PÓS-BARBA", "saúde"],
+    ["ÓCULOS DE SOL COM PROTEÇÃO UV", "saúde"],
+    ["GEL REDUTOR DE MEDIDAS", "saúde"],
+    ["BALANÇA DIGITAL", "saúde"],
+    ["CINTA MODELADORA", "saúde"]
+]
+
+_validation_products = hygiene + dairy + sweets + meats + grains_cereals + non_perishable + frozen + bakery + beverages + deli + cleaning + produce + electronics + seafood \
+    + stationery + gardening + seasonal + pet_shop + toys + health
+
+def get_validation_products():
+    return _validation_products

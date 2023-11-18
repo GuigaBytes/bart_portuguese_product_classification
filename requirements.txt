@@ -7,3 +7,4 @@ torch
 accelerate
 nltk
 spacy
+pt_core_news_sm
